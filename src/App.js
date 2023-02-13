@@ -54,13 +54,6 @@ function App() {
     },
   ];
 
-  // let region_sum = {};
-  // for (let i = 0; i < sales_data.length; i++) {
-  //   if (!(sales_data[i].region in region_sum)) {
-  //     region_sum[sales_data[i].region] = 0;
-  //   }
-  //   region_sum[sales_data[i].region] += sales_data[i].sales;
-  // }
   let sales_total = [];
   let region_index = {};
   for (let i = 0; i < sales_data.length; i++) {
